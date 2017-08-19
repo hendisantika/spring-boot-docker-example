@@ -48,6 +48,19 @@ public class SpringBootDockerExampleApplication {
 		return buf.toString();
 	}
 
+	@RequestMapping(produces = "text/plain", path = PATH_ENVIRONMENT_VARIABLES)
+	public String environmentVariables() {
+		final Map<String,String> sortedEnvironmentVariables = new TreeMap<>(System.getenv());
+
+		final StringBuilder buf = new StringBuilder();
+
+		for (final Map.Entry<String,String> entry : sortedEnvironmentVariables.entrySet()) {
+			buf.append(entry.getKey()).append(" = ").append(entry.getValue()).append("\r\n");
+		}
+
+		return buf.toString();
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootDockerExampleApplication.class, args);
 	}
