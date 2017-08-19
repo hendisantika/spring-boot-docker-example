@@ -87,7 +87,7 @@ Dockerfile-as-Build-Pipeline FTW.
 * [https://htmlpreview.github.io/?https://github.com/DockerOttawaMeetup/Slides/blob/master/2017-04-26-Multi-Stage-Builds/index.html]()
 * [http://blog.alexellis.io/mutli-stage-docker-builds/]()
 
-Copyright © 2017 Jacob Blain Christen
+Copyright © 2017 Hendi Santika
 
 >Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
