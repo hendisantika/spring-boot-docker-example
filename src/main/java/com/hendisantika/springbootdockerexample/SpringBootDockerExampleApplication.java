@@ -18,7 +18,7 @@ public class SpringBootDockerExampleApplication {
 	static final String PATH_SYSTEM_PROPERTIES = "/_/properties";
 	static final String PATH_ENVIRONMENT_VARIABLES = "/_/environment";
 
-	@Value("${io.dweomer.example.derp}")
+	@Value("${com.hendisantika.springbootdockerexample}")
 	private String derp;
 
 	@RequestMapping(produces = "text/plain", path = PATH_HOME)
