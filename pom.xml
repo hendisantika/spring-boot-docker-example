@@ -163,7 +163,7 @@
                                     <maven.project.version>${project.version}</maven.project.version>
                                 </labels>
                             </build>
-                            <name>dweomer/${project.artifactId}:${project.version}</name>
+                            <name>hendisantika/${project.artifactId}:${project.version}</name>
                             <run>
                                 <ports>
                                     <port>example.port:8080</port>
