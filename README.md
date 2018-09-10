@@ -2,7 +2,7 @@
 
 Adapted from [the Spring Boot with Docker guide](https://spring.io/guides/gs/spring-boot-docker/) to use [the Docker Maven Plugin from fabric8.io](https://github.com/fabric8io/docker-maven-plugin). This project demonstrates how to Dockerize a Spring Boot application.
 
-###Getting Started
+### Getting Started
 
 All Maven plugins and dependencies are available from [Maven Central](https://search.maven.org/). Please have installed
 
