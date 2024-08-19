@@ -31,7 +31,7 @@
         <plugin.maven-compiler.version>3.13.0</plugin.maven-compiler.version>
         <plugin.maven-enforcer.version>3.5.0</plugin.maven-enforcer.version>
         <plugin.maven-resources.version>3.3.1</plugin.maven-resources.version>
-        <plugin.maven-surefire.version>3.3.1</plugin.maven-surefire.version>
+        <plugin.maven-surefire.version>3.4.0</plugin.maven-surefire.version>
     </properties>
 
     <dependencies>
