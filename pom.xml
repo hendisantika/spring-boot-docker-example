@@ -27,7 +27,7 @@
         <java.version>21</java.version>
         <docker.build.directory>${project.build.directory}/docker/local</docker.build.directory>
         <docker.skip>true</docker.skip>
-        <plugin.fabric8io-docker.version>0.45.0</plugin.fabric8io-docker.version>
+        <plugin.fabric8io-docker.version>0.45.1</plugin.fabric8io-docker.version>
         <plugin.maven-compiler.version>3.13.0</plugin.maven-compiler.version>
         <plugin.maven-enforcer.version>3.5.0</plugin.maven-enforcer.version>
         <plugin.maven-resources.version>3.3.1</plugin.maven-resources.version>
